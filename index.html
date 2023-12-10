@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>result summary</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css"> -->
+     src="https://kit.fontawesome.com/73cb2223c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+            
+*{
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: flex;
+    width: 500px;
+    box-shadow: 0px 0px 10px;
+}
+.cont{
+    background-color: hsla(256, 72%, 46%, 1);
+    width: 300px;
+    color: white;
+    text-align:center;
+    border-radius: 10px;
+                                          
+
+}
+.man{
+    border-radius:50%;
+    background-color:  blueviolet;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    margin-left: 80px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+
+
+}
+.hit{
+    background-color:white;
+    width: 300px;
+    border-radius:10px;
+
+}
+.hit li{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+}
+.reaction{
+    background-color: hsl(0, 100%, 67%);
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px; 
+    border: none;
+}
+.memory{
+    background-color:hsl(39, 100%, 56%);
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px; 
+    border: none; 
+}
+.verbal{
+    background-color:hsl(166, 100%, 37%);
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;  
+    border: none; 
+}
+.visual{
+    background-color:hsl(234, 85%, 45%);
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;   
+}
+.continue{
+    padding: 10px;
+    
+}
+.hit h2{
+    padding: 10px;
+}
+button{
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+    border-radius: 30px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
+  @media screen and (max-width:425px) {
+    .container{
+        display: block;
+        width: 300px;
+        margin: 30px;
+   
+    
+}
+} 
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="cont">
+        <div>
+            your result
+        </div>
+        <div class="man">
+           <p ><h1>76</h1>of 100</p>
+        </div>
+        
+        <h2>Great</h2>
+
+        <div>
+            you scored than 65% of <br> 
+            the people  who have taken <br>
+            these test
+        </div>
+          
+
+
+
+    </div> 
+    <div class="hit">
+        <h2>summary</h2>
+        <ul>
+            <li class="reaction">
+                <div>                
+                    <i class="fab fa-facebook"></i>  Reaction 
+                </div>80/100        
+            </li><br>
+            <li class="memory">
+                <div>                
+                    <i class="far fa-clock"></i> memory
+                </div>92/100        
+            </li><br>
+            <li class="verbal">
+                <div>                
+                    <i class="far fa-message"></i> verbal
+                </div>61/100        
+            </li><br>
+             
+            <li class="visual">
+                <div>                
+                    <i class="far fa-eye"></i>  visual
+                </div>72/100        
+            </li><br>
+        </ul>
+             
+        </ul>
+        <div class="continue">
+            <button>continue</button>
+        </div>
+      </div>
+    </div>
+
+    
+</body>
+</html>
